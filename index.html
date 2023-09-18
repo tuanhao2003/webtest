@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Time Table</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="getAcc">
+        <form class="inpForm">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h4><b>Tên đăng nhập:</b></h4>
+                <input type="text" id="userName" class="form-control" pattern="[0-9]{10}" required="required">
+            </div>
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h4><b>Mật khẩu:</b></h4>
+                <input type="password" id="passWord" class="form-control" required="required">
+            </div>
+
+            <button class="submit-btn">Xem</button>
+        </form>
+    </div>
+
+    <div id="showTimeTable"></div>
+</body>
+</html>
